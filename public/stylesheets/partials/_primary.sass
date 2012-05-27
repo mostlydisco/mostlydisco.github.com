@@ -1,0 +1,46 @@
+#primary
+  color: #666666
+  min-width: 66em
+
+  article.topics
+    width: 940px
+    overflow: hidden
+    margin: 0 0 30px
+    cursor: default
+
+    article.topic
+      float: left
+      width: 215px
+      margin: 0 10px
+      font-size: 0.9em
+      opacity: 0.6
+      text-align: justify
+      &.current
+        opacity: 1
+
+        h1
+          color: $primary-color
+
+        a
+          color: $primary-color
+
+      a
+        cursor: pointer
+        color: #111111
+        text-decoration: none
+        &:hover
+          text-decoration: underline
+
+      h1
+        color: #666
+        font-size: 1.5em
+        padding: 0.2em 0
+        text-align: center
+        font-family: "Cantarell", "Verdana"
+        font-weight: 200
+
+      p
+        line-height: 1.4em
+
+      footer
+        margin-top: 10px

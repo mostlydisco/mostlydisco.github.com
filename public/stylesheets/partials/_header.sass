@@ -1,0 +1,45 @@
+header#header
+
+  h1
+    height: 5em
+    line-height: 5em
+    font-family: "Cantarell", "Verdana"
+    font-weight: 200
+
+    a
+      color: $primary-color
+      text-decoration: none
+      font-size: 2em
+
+  h2
+    font-size: 0.795em
+    margin: -2em 0 0 3px
+    font-family: "Cantarell", "Verdana"
+    font-weight: 200
+
+  nav
+
+    #primary-nav
+      position: absolute
+      right: 10px
+      top: 0
+      height: 5em
+      line-height: 5em
+
+      li
+        float: left
+        margin: 0 0 0 10px
+        font-family: "Cantarell", "Verdana"
+        font-weight: 100
+        &.separator
+          margin-left: 10px
+          padding-left: 10px
+          border-left: 1px solid #CECECE
+
+        a
+          color: #999999
+          text-decoration: none
+          &:hover
+            text-decoration: underline
+          &.current
+            color: $primary-color
