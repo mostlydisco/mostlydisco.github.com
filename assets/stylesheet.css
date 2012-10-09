@@ -1,3 +1,30 @@
-.thumbnail.span4 {
+.navbar .brand:hover {
+  color: #333333;
+  cursor: default;
+}
+
+.navbar-inner {
+  border-radius: 0;
+  border: 0;
+  background: none;
+}
+
+.thumbnail.span12, .thumbnail.span4 {
   box-sizing: border-box;
+}
+
+.thumbnail.span4 {
+  margin-bottom: 0;
+}
+
+.thumbnail {
+  cursor: default;
+}
+
+.thumbnail a:hover {
+  text-decoration: none;
+}
+
+.thumbnail a:hover h3, .thumbnail a:hover p {
+  color: #558bc4;
 }
