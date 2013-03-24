@@ -16,6 +16,13 @@ body {
   background: white;
 }
 
+.thumbnails {
+  position: absolute;
+  top: 50%;
+  margin-top: -160px;
+  z-index: -1;
+}
+
 .thumbnail.span12, .thumbnail.span4 {
   box-sizing: border-box;
 }
