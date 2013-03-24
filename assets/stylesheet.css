@@ -52,9 +52,12 @@ body {
   margin-bottom: 20px;
 }
 
-.jobs dt:not(:first-child), .schools dt:not(:first-child) {
+.jobs dt, .schools dt {
   border-bottom: 1px solid #333;
-  margin-top: 20px;
+}
+
+.jobs dd, .schools dd {
+  margin-bottom: 30px;
 }
 
 .jobs h5, .schools h5 {
