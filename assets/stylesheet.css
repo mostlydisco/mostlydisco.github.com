@@ -2,22 +2,10 @@ body {
   padding: 60px 0;
 }
 
-.navbar-fixed-top .navbar-inner {
-  background-color: #7102CF;
-}
-
 .navbar .brand {
   cursor: pointer;
   margin-left: 0;
-}
-
-.navbar .nav>li>a, .navbar .brand {
-  color: #FFFFFF;
-  text-shadow: -1px -1px 1px #333333;
-}
-
-.navbar .nav>li>a:hover, .navbar .brand:hover {
-  color: #DEDEDE;
+  padding: 0 20px;
 }
 
 .navbar-inner {
